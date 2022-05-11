@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *{box-sizing: border-box;}
+        body{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url('fundo2.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        span{
+            font-weight: bold;
+        }
+        hr {
+            width: 100px;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            height: 30px;
+            margin-top: 0px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid gray;
+            z-index: 2;
+        }
+        .menu{
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .menu a:hover{
+            color: gray;
+            font-size: 15px;
+        }
+        .contato{
+            margin: 0px 50px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .icone{
+            height: 20px;
+            margin: 0;
+            align-self: center;
+            margin-left: 5px;
+        }
+        main{
+            position: relative;
+            top: 30px;
+            z-index: 1;
+        }
+        .perfil{
+            margin-bottom: 20px;
+            color: white;
+        }
+        .perfil h1{
+            font-size: 30px;
+        }
+        .perfil h1:hover{
+            font-size: 40px;
+        }
+        .eu {
+            height: 200px;
+            border: 5px solid white;
+            border-radius: 100px;
+        }
+        .conteudo section{
+            padding-top: 1px;
+            padding-bottom: 5px;
+        }
+        main .faixa:nth-of-type(odd){
+            background: white;
+        }
+        main .faixa:nth-of-type(even){
+            background: black;
+            color: white;
+        }
+        .faixa{
+            padding: 5px 5px;
+
+        }
+        .faixa h2:hover{
+            font-size: 30px;
+        }
+        .servicos {
+            margin-top: 0px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .servicos h3:hover{
+            color: rgb(78, 37, 37);
+        }
+        .box-servico{
+            margin: 5px 5px;
+            padding: 10px;
+            padding-top: 0px;
+            background-color: rgb(148, 148, 148);
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            flex: 1 1;
+            box-shadow: 10px 10px 10px 10px black;
+        }
+        .box-servico p{
+            font-size: 15px;
+        }
+        .box-servico h3{
+            font-size: 20px;
+            text-align: center;
+            margin:1px;
+        }
+        .box-servico img{
+            position: cover;
+            height: 250px;
+        }
+        .projetos{
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .box-projeto a {
+            color: white;
+            text-decoration: none;
+        }
+        .faixa:last-of-type h2, .faixa:last-of-type h3{
+            color:white;
+        }
+        footer{
+            margin-top: 70px;
+            text-align: center;
+            color: white;
+            z-index: 2;
+        }
+    </style>
+
+    <script>
+        alert('Hello, world! 🚀')
+        var nome = prompt('Qual é o seu nome? 🤔')
+        alert('Seja bem-vindo(a) ao meu portfólio interativo ' + nome + ' ! 😀')
+
+    </script>
+</head>
+<body>
+    <header>
+
+        <nav class="menu">
+
+        <div class="contato">
+        <a href="tel:+5561996386998" target="_blank">&ltFale comigo pelo Whatsapp!&gt</a>
+        <img src="whatsapp.png" class="icone">
+        </div>
+        
+        <div class="contato">
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-marcelo-dantas-3b519b18a/" target="_blank">&ltLinkedIn&gt</a>
+        <img src="linkedin.png" class="icone">
+        </div>
+
+        <div class="contato">
+            <a href="https://github.com/jmgrd98" target="_blank">&ltGithub&gt</a>
+            <img src="github.png" class="icone">
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="perfil">
+    <h1>&ltJoão Marcelo&gt</h1>
+    <p>&ltBrasília-DF, 23 anos&gt</p>
+    <p><span>console.log('Hello, world')! 🚀</span></p>
+    <img src="eu.jpg" class="eu">
+</section>
+
+    <section class="faixa">
+    <h2>&ltObjetivos&gt</h2>
+    <p>Já fiz vários cursos introdutórios de HTML, CSS e JavaScript e estudo front-end todos os dias através da plataforma DevMedia. Esse ano passei para uma formação completa de programador full stack pela edtech Blue, a qual finalizo no ano que vem.</p>
+</section>
+
+
+    <section class="faixa">
+    <h2>&ltFormação&gt</h2>
+    <p>Estudante de Publicidade e Propaganda atualmente cursando o 7º semestre.</p>
+</section>
+
+    <section class="faixa">
+    <h2>&ltExperiência&gt</h2>
+    <p>Trabalhei em startup por 2 anos na área de marketing.</p>
+</section>
+
+    <section class="faixa" id="servicos">
+    <h2>&ltServiços&gt</h2>
+    <p>Confira os serviços que eu presto:</p>
+
+    <section class="servicos">
+
+        <section class="box-servico" id="landing-page">
+            <h3>Criação de landing pages</h3>
+            <hr>
+            <img src="landingpage.jpg">
+            <p>Criação de landing pages de <span>alta conversão</span> utilizando HTML5 e CSS3 Flexbox.</p>
+        </section>
+
+        <section class="box-servico" id="desenvolvimento-sites">
+            <h3>Desenvolvimento de sites</h3>
+            <hr>
+            <img src="sites.jpg">
+            <p>Desenvolvimento de <span>sites interativos</span> utilizando HTML, CSS e Javascript.</p>
+        </section>
+
+        <section class="box-servico" id="social-media">
+            <h3>Criação de front-end para aplicativos</h3>
+            <hr>
+            <img src="social-media.jpg">
+            <p>Criação de layouts front-end <span>utilizando o framework React Native</span></p>
+        </section>
+
+    </section>
+ </section>
+
+    <section class="faixa" id="projetos">
+    <h2>&ltProjetos&gt</h2>
+    <p>Confira meus projetos de front-end:</p>
+
+        <section class="projetos ">
+
+            <section class="box-projeto">
+                <a href = "home.html">
+                    <h3>Site Pousada Secreta</h3>
+                </a>
+            </section>
+
+            <section class="box-projeto">
+                <a href = "home.html">
+                    <h3>Site Pousada Secreta</h3>
+                </a>
+            </section>
+
+            <section class="box-projeto">
+                <a href = "home.html">
+                <h3>Site Pousada Secreta</h3>
+            </a>
+        </section>
+
+        </section>
+
+        <section class="faixa">
+            <h2>&ltContato&gt</h2>
+        <form method="post" action="">
+
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <p>Faça sua proposta abaixo e entrarei em contato o quanto antes!</p>
+            <label>Nome:</label>
+            <input type="text" name="nome">
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>Proposta:</label>
+            <input type="text" name="proposta">
+
+        </fieldset>
+        </form>
+    </section>
+    </main>
+
+<footer>
+
+    <p>&copyCopyright - João Marcelo Dantas&reg</p>
+    
+</footer>
+</body>
+</html>
