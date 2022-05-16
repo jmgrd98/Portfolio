@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio interativo feito com HTML5, CSS3 e JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmgrd98/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmgrd98/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jmgrd98/Portfolio#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

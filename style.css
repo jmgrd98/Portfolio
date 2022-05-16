@@ -156,3 +156,6 @@ footer{
     color: white;
     z-index: 2;
 }
+input{
+    width: 50px;
+}
