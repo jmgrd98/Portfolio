@@ -7,6 +7,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    scroll-behavior: smooth;
 }
 span{
     font-weight: bold;

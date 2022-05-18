@@ -2,10 +2,14 @@ alert('Hello, world! 🚀')
 var nome = prompt('Qual é o seu nome? 🤔')
 alert('Seja bem-vindo(a) ao meu portfólio interativo, ' + nome + '! 😀')
 
+
 var numero1 = getElementById('numero1').value
 var numero2 = getElementById('numero2').value
 var operacao = getElementById('operacao').value
-var resultado = 0
+
+function calculadora(numero1, numero2, operacao){
+
+    var resultado = 0
 
 switch(operacao){
     case '+':
@@ -19,8 +23,8 @@ switch(operacao){
         break;
     case '/':
         resultado = numero1 / numero2;
+        break;
+    }
 }
-
-getElementById('botao') 
-    alert('O resultado é ' + resultado)
-}
+calculadora
+alert('O resultado é ' + resultado)
